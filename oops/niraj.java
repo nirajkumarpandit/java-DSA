@@ -13,12 +13,11 @@ public class niraj {
 class boy{
      String name;
      int roll;
-
+    boy(){
+        
+    }
      // copy constructor
      boy (boy St){
         this.name=St.name;
      }
-     boy(){
-        this.name=name;
     }
-}
