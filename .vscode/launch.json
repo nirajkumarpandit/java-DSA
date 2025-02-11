@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Sum",
+            "request": "launch",
+            "mainClass": "oops.Sum",
+            "projectName": "java-DSA-3_df74787"
+        },
+        {
+            "type": "java",
+            "name": "sum",
+            "request": "launch",
+            "mainClass": "oops.sum",
+            "projectName": "java-DSA-3_df74787"
+        },
+        {
+            "type": "java",
+            "name": "Manish",
+            "request": "launch",
+            "mainClass": "oops.Manish",
+            "projectName": "java-DSA-3_df74787"
+        },
+        {
+            "type": "java",
+            "name": "supers",
+            "request": "launch",
+            "mainClass": "oops.supers",
+            "projectName": "java-DSA-3_df74787"
+        },
+        {
+            "type": "java",
+            "name": "Superkeyword",
+            "request": "launch",
+            "mainClass": "oops.Superkeyword",
+            "projectName": "java-DSA-3_df74787"
+        },
+        {
+            "type": "java",
+            "name": "SupKeyword",
+            "request": "launch",
+            "mainClass": "oops.SupKeyword",
+            "projectName": "java-DSA-3_df74787"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
