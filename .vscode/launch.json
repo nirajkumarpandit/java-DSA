@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Arrays",
+            "request": "launch",
+            "mainClass": "Array.Arrays",
+            "projectName": "java-DSA-4_df74788"
+        },
+        {
+            "type": "java",
             "name": "Pratics",
             "request": "launch",
             "mainClass": "Linked_list.Pratics",
