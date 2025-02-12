@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Basic",
+            "request": "launch",
+            "mainClass": "Array.Basic",
+            "projectName": "java-DSA-4_df74788"
+        },
+        {
+            "type": "java",
             "name": "Smallest",
             "request": "launch",
             "mainClass": "Array.Smallest",
