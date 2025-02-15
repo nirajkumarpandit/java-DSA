@@ -1,17 +1,19 @@
 package Array;
 public class Subarray {
-    public static void main(String[] args) {
-        int n=5;
-        int arr[]={1,2,3,4,5};
-        for(int st=0;st<n;st++ ){
-            for(int end=st; end<n; end++){
-                for(int i=st; i<=end; i++){
-                    System.out.print(arr[i]);
-                }
-                System.out.print(" ");
+  public static void main(String[] args) {
+    int arr[]={2,3,4,5,6};
+    int total=0;
+    for(int i=0; i<arr.length;i++){
+        int start=i;
+        for(int j=i; j<arr.length; j++){
+            int end=j;
+            for(int k=start; k<=end;k++){
+                System.out.print(arr[k]);
             }
-            System.out.println();
+            total++;
+            System.out.println(" ");
         }
-        
     }
+    System.out.println("the total Subarray :"+total);
+  }
 }
