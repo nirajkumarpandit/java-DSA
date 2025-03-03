@@ -29,8 +29,7 @@ public class Bubble {
     public static void main(String[] args) {
         int arr[]={1,3,4,5};
         BubbleSort(arr);
-        // print(arr);
-
+        print(arr);
 
     }
 }
