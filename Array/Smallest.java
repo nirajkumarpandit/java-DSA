@@ -1,14 +1,14 @@
 package Array;
 
 public class Smallest {
-    public static int small(int arr[]){
-        int small=Integer.MAX_VALUE;
+    static int small(int arr[]){
+        int min=arr[0];
         for(int i=0; i<arr.length; i++){
-            if(small>arr[i]){
-                small=arr[i];
+            if(min>arr[i]){
+                min=arr[i];
             }
         }
-        return small;
+        return min;
     }
     public static void main(String[] args) {
         int arr[]={2,-15,7,-9,9};
