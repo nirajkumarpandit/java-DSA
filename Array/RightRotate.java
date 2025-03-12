@@ -1,7 +1,5 @@
 package Array;
 
-import pratics.reverse;
-
 public class RightRotate {
     static void reverse(int arr[], int start, int end ){
         while (start<=end) {
