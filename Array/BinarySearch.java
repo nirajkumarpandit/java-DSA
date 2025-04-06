@@ -24,3 +24,4 @@ public class BinarySearch {
        System.out.println(BinSearch(arr, target));
     }
 }
+// answer is 4
