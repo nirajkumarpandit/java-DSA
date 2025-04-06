@@ -21,5 +21,6 @@ public class Linear {
         }else{
             System.out.println("Element found at index "+ index);
         }
+        sc.close();
     }
 }

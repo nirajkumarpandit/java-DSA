@@ -25,6 +25,7 @@ public class P1{
         for(int i=0; i<arr.length; i++){
             arr[i]=sc.nextInt();
         }
+        sc.close();
     }
     // find largest element in array
     public static void largest(int arr[]){

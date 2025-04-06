@@ -1,6 +1,6 @@
 package oops;
 
-public class abstraction {
+public class Abstraction {
     public static void main(String[] args) {
         Dog d=new Dog();
         d.eat();
@@ -18,7 +18,7 @@ class Dog extends Animal{
         System.out.println("dog 4 lags");
     }
 }
-class Man extends Animal{
+class man extends Animal{
     void walk(){
         System.out.println("man 2 lags");  // yaha  per implement huaa hai
     }
