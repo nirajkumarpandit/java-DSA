@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "moveZero",
+            "request": "launch",
+            "mainClass": "Array.moveZero",
+            "projectName": "java-DSA-5_b43822fe"
+        },
+        {
+            "type": "java",
             "name": "Sum",
             "request": "launch",
             "mainClass": "Array.Sum",

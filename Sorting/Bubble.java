@@ -27,7 +27,7 @@ public class Bubble {
         }
     }
     public static void main(String[] args) {
-        int arr[]={1,3,4,5};
+        int arr[]={1,58,585,5521,5651,11,554,0,3,4,5};
         BubbleSort(arr);
         print(arr);
 
