@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CheckSorted",
+            "request": "launch",
+            "mainClass": "Array.CheckSorted",
+            "projectName": "java-DSA-7_b4382300"
+        },
+        {
+            "type": "java",
             "name": "P1",
             "request": "launch",
             "mainClass": "Array.pratics.P1",
