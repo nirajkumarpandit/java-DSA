@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "P1",
+            "request": "launch",
+            "mainClass": "Array.pratics.P1",
+            "projectName": "java-DSA-7_b4382300"
+        },
+        {
+            "type": "java",
+            "name": "Largest",
+            "request": "launch",
+            "mainClass": "Array.Largest",
+            "projectName": "java-DSA-7_b4382300"
+        },
+        {
+            "type": "java",
             "name": "Friends",
             "request": "launch",
             "mainClass": "Recursion.Friends",
