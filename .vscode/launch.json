@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Insertion",
+            "request": "launch",
+            "mainClass": "Sorting.Insertion",
+            "projectName": "java-DSA-7_b4382300"
+        },
+        {
+            "type": "java",
+            "name": "Arrays",
+            "request": "launch",
+            "mainClass": "Array.Arrays",
+            "projectName": "java-DSA-7_b4382300"
+        },
+        {
+            "type": "java",
             "name": "CheckSorted",
             "request": "launch",
             "mainClass": "Array.CheckSorted",
