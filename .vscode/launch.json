@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RotatedSortArray",
+            "request": "launch",
+            "mainClass": "Sorting.RotatedSortArray",
+            "projectName": "java-DSA-3_b43822fc"
+        },
+        {
+            "type": "java",
             "name": "Quick",
             "request": "launch",
             "mainClass": "Sorting.Quick",
