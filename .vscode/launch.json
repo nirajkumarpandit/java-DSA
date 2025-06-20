@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Reverse",
+            "request": "launch",
+            "mainClass": "ArrayList.Reverse",
+            "projectName": "java-DSA-4_b43822fd"
+        },
+        {
+            "type": "java",
+            "name": "SelectionSort",
+            "request": "launch",
+            "mainClass": "Sorting.SelectionSort",
+            "projectName": "java-DSA-4_b43822fd"
+        },
+        {
+            "type": "java",
             "name": "RotatedSortArray",
             "request": "launch",
             "mainClass": "Sorting.RotatedSortArray",
