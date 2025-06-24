@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Matrix",
+            "request": "launch",
+            "mainClass": "Array.twoDArray.Matrix",
+            "projectName": "java-DSA-4_b43822fd"
+        },
+        {
+            "type": "java",
+            "name": "p2",
+            "request": "launch",
+            "mainClass": "Array.pratics.p2",
+            "projectName": "java-DSA-4_b43822fd"
+        },
+        {
+            "type": "java",
+            "name": "Reverse",
+            "request": "launch",
+            "mainClass": "arrayList.Reverse",
+            "projectName": "java-DSA-4_b43822fd"
+        },
+        {
+            "type": "java",
+            "name": "TotalPair",
+            "request": "launch",
+            "mainClass": "Array.TotalPair",
+            "projectName": "java-DSA-4_b43822fd"
+        },
+        {
+            "type": "java",
+            "name": "A",
+            "request": "launch",
+            "mainClass": "arrayList.A",
+            "projectName": "java-DSA-4_b43822fd"
+        },
+        {
+            "type": "java",
+            "name": "A",
+            "request": "launch",
+            "mainClass": "Array_List.A",
+            "projectName": "java-DSA-4_b43822fd"
+        },
+        {
+            "type": "java",
+            "name": "MultiDemAL",
+            "request": "launch",
+            "mainClass": "Array_List.MultiDemAL",
+            "projectName": "java-DSA-4_b43822fd"
+        },
+        {
+            "type": "java",
+            "name": "MultiDemAL",
+            "request": "launch",
+            "mainClass": "MultiDemAL",
+            "projectName": "java-DSA-4_b43822fd"
+        },
+        {
+            "type": "java",
+            "name": "Subarray",
+            "request": "launch",
+            "mainClass": "Array.Subarray",
+            "projectName": "java-DSA-4_b43822fd"
+        },
+        {
+            "type": "java",
+            "name": "tringle",
+            "request": "launch",
+            "mainClass": "LOOP.Pattern.tringle",
+            "projectName": "java-DSA-4_b43822fd"
+        },
+        {
+            "type": "java",
             "name": "Reverse",
             "request": "launch",
             "mainClass": "ArrayList.Reverse",

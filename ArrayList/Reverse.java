@@ -1,4 +1,4 @@
-package ArrayList;
+package arrayList;
 import java.util.ArrayList;
 public class Reverse {
     // print the ArrayList 
@@ -36,8 +36,9 @@ public class Reverse {
         list.add( 5);
         list.add(6);
         // reverse(list);
-        // int idex1=1;int idex2=3;
-        // swap(list, idex1, idex2);
-        System.out.println(maxArrayList(list));
+        int idex1=1;int idex2=3;
+        swap(list, idex1, idex2);
+        System.out.print(list);
+        // System.out.println(maxArrayList(list));
     }
 }
