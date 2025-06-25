@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PairSum",
+            "request": "launch",
+            "mainClass": "ArrayList.PairSum",
+            "projectName": "java-DSA-1_3c07c5bd"
+        },
+        {
+            "type": "java",
+            "name": "MostWater",
+            "request": "launch",
+            "mainClass": "ArrayList.MostWater",
+            "projectName": "java-DSA-1_3c07c5bd"
+        },
+        {
+            "type": "java",
+            "name": "Pratics",
+            "request": "launch",
+            "mainClass": "Linked_list.Pratics",
+            "projectName": "java-DSA-1_3c07c5bd"
+        },
+        {
+            "type": "java",
             "name": "Matrix",
             "request": "launch",
             "mainClass": "Array.twoDArray.Matrix",
