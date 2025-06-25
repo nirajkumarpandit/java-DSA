@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PairSum2",
+            "request": "launch",
+            "mainClass": "ArrayList.PairSum2",
+            "projectName": "java-DSA-1_3c07c5bd"
+        },
+        {
+            "type": "java",
             "name": "PairSum",
             "request": "launch",
             "mainClass": "ArrayList.PairSum",
