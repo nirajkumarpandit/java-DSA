@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Operation",
+            "request": "launch",
+            "mainClass": "Linked_list.Operation",
+            "projectName": "java-DSA-2_3c07c5be"
+        },
+        {
+            "type": "java",
+            "name": "Pratics",
+            "request": "launch",
+            "mainClass": "Linked_list.Pratics",
+            "projectName": "java-DSA-2_3c07c5be"
+        },
+        {
+            "type": "java",
             "name": "PairSum2",
             "request": "launch",
             "mainClass": "ArrayList.PairSum2",
