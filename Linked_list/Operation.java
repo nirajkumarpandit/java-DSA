@@ -105,6 +105,20 @@ public class Operation {
         tail=prev;
         size--;
      }
+
+     // Linear search on linked list
+      public int linearSearch(int target){
+        Node temp =head;
+        int i=0;
+        while (temp !=null) {
+            if(temp.data== target){
+                return i;
+            }
+            temp=temp.next;
+            i++;
+        }
+        return -1;
+      }
     public static void main(String[] args) {
         Operation ll=new Operation();
         ll.addFirst(3);
@@ -120,5 +134,6 @@ public class Operation {
         // ll.removeLast();
         ll.print();
         System.out.println(ll.size);
+        System.out.println("the element found at index :"+ ll.linearSearch(90));
     }
 }
