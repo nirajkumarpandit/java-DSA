@@ -119,6 +119,21 @@ public class Operation {
         }
         return -1;
       }
+      // search  using recursion
+      public int search(Node head, int target){
+        // base case 
+        if(head==null){
+            return -1;
+        }
+        if(head.data==target){
+            return 0;      
+        }
+        int idx=search(head.next,target); // recursive call for next head
+        if(idx==-1){      
+            return -1;
+        }
+        return idx+1;
+      }
     public static void main(String[] args) {
         Operation ll=new Operation();
         ll.addFirst(3);
@@ -134,6 +149,6 @@ public class Operation {
         // ll.removeLast();
         ll.print();
         System.out.println(ll.size);
-        System.out.println("the element found at index :"+ ll.linearSearch(90));
+        System.out.println("the element found at index :"+ ll.search(head, 11));
     }
 }
