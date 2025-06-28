@@ -27,12 +27,12 @@ public class Operation {
     }
     // add last
     public void addlast(int data){
-        if(head==null){
-            System.out.println("null");
-            return;
-        }
         // create a node
         Node newNode=new Node(data);
+        if(head==null){
+            head=tail=newNode;
+            return;
+        }
         Node temp=head;         // traverse karke tail tak jao then add karo
         for(int i=0; i<size-1; i++){
             temp=temp.next;
@@ -134,6 +134,20 @@ public class Operation {
         }
         return idx+1;
       }
+
+      // reverse of a linked list
+      public void reverse(){
+        Node prev=null;
+        Node curr=tail=head;
+        Node next;
+        while (curr !=null) {
+            next=curr.next;
+            curr.next=prev;
+            prev=curr;
+            curr= next;
+        }
+        head=prev;
+      }
     public static void main(String[] args) {
         Operation ll=new Operation();
         ll.addFirst(3);
@@ -144,11 +158,13 @@ public class Operation {
         ll.add(1, 0);
         ll.addFirst(11);
         ll.addlast(32);
-        System.out.println(ll.size);
+        // System.out.println(ll.size);
         // ll.removeFirst();
         // ll.removeLast();
         ll.print();
-        System.out.println(ll.size);
-        System.out.println("the element found at index :"+ ll.search(head, 11));
+        ll.reverse();
+        ll.print();
+        // System.out.println(ll.size);
+        // System.out.println("the element found at index :"+ ll.search(head, 11));
     }
 }

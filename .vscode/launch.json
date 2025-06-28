@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Reverse",
+            "request": "launch",
+            "mainClass": "Linked_list.Reverse",
+            "projectName": "java-DSA-2_3c07c5be"
+        },
+        {
+            "type": "java",
             "name": "Operation",
             "request": "launch",
             "mainClass": "Linked_list.Operation",
