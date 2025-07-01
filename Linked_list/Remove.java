@@ -95,7 +95,7 @@ public class Remove {
             return;
         }
         Node prev=head;
-        int idxFromEnd=size-idx;
+        int idxFromEnd=size-idx-1;
         while(i<idxFromEnd){
             prev=prev.next; 
             i++;
@@ -113,9 +113,7 @@ public class Remove {
         ll.add(4, 5);
         ll.print();
         // ll.remove(0);
-        ll.removeEnd(5);
+        ll.removeEnd(0);
         ll.print();
-
-        System.out.println(ll.size);
     }
 }
