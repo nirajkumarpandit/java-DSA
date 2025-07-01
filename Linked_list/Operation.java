@@ -11,7 +11,7 @@ public class Operation {
     }
     public static Node head;
     public static Node tail;
-    int size;
+    int size=0;
     // add at first position 
     public void addFirst(int data){
         // create a newnode
@@ -148,6 +148,30 @@ public class Operation {
         }
         head=prev;
       }
+      // remove the n th index
+      public void remove(int n){
+        // calculate the size of linkedlist
+        // int size=0;
+        // Node temp=head;
+        // while(temp !=null){
+        //     temp=temp.next;
+        //     size++;
+        // }
+        // if head remove
+        int i=0;
+        if(i==n){
+            head=head.next;
+            return;
+        }
+        Node prev=head;
+        while (i <n-1) {
+            prev=prev.next;
+            i++;
+        }
+        prev.next=prev.next.next;
+        size--;
+        return;
+      }
     public static void main(String[] args) {
         Operation ll=new Operation();
         ll.addFirst(3);
@@ -162,9 +186,12 @@ public class Operation {
         // ll.removeFirst();
         // ll.removeLast();
         ll.print();
-        ll.reverse();
-        ll.print();
+        // ll.reverse();
+        // ll.print();
         // System.out.println(ll.size);
         // System.out.println("the element found at index :"+ ll.search(head, 11));
+        System.out.println("this is the remove nth index operation");
+        ll.remove(2);
+        ll.print();
     }
 }

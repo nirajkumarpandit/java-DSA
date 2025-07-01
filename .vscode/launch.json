@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Remove",
+            "request": "launch",
+            "mainClass": "Linked_list.Remove",
+            "projectName": "java-DSA_efaf259"
+        },
+        {
+            "type": "java",
+            "name": "Operation",
+            "request": "launch",
+            "mainClass": "Linked_list.Operation",
+            "projectName": "java-DSA_efaf259"
+        },
+        {
+            "type": "java",
             "name": "Reverse",
             "request": "launch",
             "mainClass": "Linked_list.Reverse",
