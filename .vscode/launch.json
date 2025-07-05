@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Merge",
+            "request": "launch",
+            "mainClass": "Linked_list.Merge",
+            "projectName": "java-DSA_efaf259"
+        },
+        {
+            "type": "java",
+            "name": "FrameWork",
+            "request": "launch",
+            "mainClass": "Linked_list.FrameWork",
+            "projectName": "java-DSA_efaf259"
+        },
+        {
+            "type": "java",
             "name": "RemoveCycle",
             "request": "launch",
             "mainClass": "Linked_list.RemoveCycle",
