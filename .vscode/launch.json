@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Operation",
+            "request": "launch",
+            "mainClass": "Linked_list.Operation",
+            "projectName": "java-DSA-1_3c07c5bd"
+        },
+        {
+            "type": "java",
+            "name": "Merge",
+            "request": "launch",
+            "mainClass": "Linked_list.Merge",
+            "projectName": "java-DSA-1_3c07c5bd"
+        },
+        {
+            "type": "java",
             "name": "Merge",
             "request": "launch",
             "mainClass": "Linked_list.Merge",
