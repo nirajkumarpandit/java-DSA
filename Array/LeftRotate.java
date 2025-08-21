@@ -23,10 +23,9 @@ public class LeftRotate {
         for(int i=d; i<arr.length; i++ ){
             arr[i-d]=arr[i];
         }
-        // put back the temp element in the array in vacent position
-        // vacent position = size of array - d
-        for(int i= arr.length-d; i<arr.length; i++){
-            arr[i]=temp[i-(arr.length-d)];
+         // Step 3: Copy temp elements to the end
+        for (int i = 0; i < d; i++) {
+            arr[arr.length -d +i] = temp[i];
         }
      }
 
