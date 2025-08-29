@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StackUsingLinkedlist",
+            "request": "launch",
+            "mainClass": "Stack.StackUsingLinkedlist",
+            "projectName": "java-DSA-3_3c07c5bf"
+        },
+        {
+            "type": "java",
+            "name": "StackUisngArrayList",
+            "request": "launch",
+            "mainClass": "Stack.StackUisngArrayList",
+            "projectName": "java-DSA-3_3c07c5bf"
+        },
+        {
+            "type": "java",
             "name": "Operation",
             "request": "launch",
             "mainClass": "Linked_list.Operation",
