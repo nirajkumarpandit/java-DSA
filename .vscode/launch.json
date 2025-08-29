@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PushAtBottom",
+            "request": "launch",
+            "mainClass": "Stack.PushAtBottom",
+            "projectName": "java-DSA-3_3c07c5bf"
+        },
+        {
+            "type": "java",
             "name": "StackUsingLinkedlist",
             "request": "launch",
             "mainClass": "Stack.StackUsingLinkedlist",
