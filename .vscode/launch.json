@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StackUisngArrayList",
+            "request": "launch",
+            "mainClass": "Stack.StackUisngArrayList",
+            "projectName": "java-DSA-8_3c07c5c4"
+        },
+        {
+            "type": "java",
             "name": "Reverse",
             "request": "launch",
             "mainClass": "Stack.Reverse",
