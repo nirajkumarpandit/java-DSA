@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Greater",
+            "request": "launch",
+            "mainClass": "Stack.pratics.Greater",
+            "projectName": "java-DSA-2_3c07c5be"
+        },
+        {
+            "type": "java",
+            "name": "PushAtBottom",
+            "request": "launch",
+            "mainClass": "Stack.pratics.PushAtBottom",
+            "projectName": "java-DSA-2_3c07c5be"
+        },
+        {
+            "type": "java",
             "name": "LinkedList",
             "request": "launch",
             "mainClass": "Linked_list.LinkedList",
