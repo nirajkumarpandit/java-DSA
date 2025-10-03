@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InfixToPrefix",
+            "request": "launch",
+            "mainClass": "Stack.InfixToPrefix",
+            "projectName": "java-DSA-3_3c07c5bf"
+        },
+        {
+            "type": "java",
+            "name": "InfixToPostfix",
+            "request": "launch",
+            "mainClass": "Stack.InfixToPostfix",
+            "projectName": "java-DSA-3_3c07c5bf"
+        },
+        {
+            "type": "java",
             "name": "Greater",
             "request": "launch",
             "mainClass": "Stack.pratics.Greater",
