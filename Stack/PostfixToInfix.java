@@ -10,8 +10,8 @@ public class PostfixToInfix {
             char c = postfix.charAt(i);
 
             // If the character is an operand, push it to the stack
-            if (Character.isLetterOrDigit(c)) {
-                s.push(String.valueOf(c));
+            if (Character.isLetterOrDigit(c)) {  // Character -->built in class hai 
+                s.push(String.valueOf(c));      // isLetterOrDigit-->buit in method hai jo check kar raha hai ki (c) कोई letter (A-Z, a-z) या digit (0-9) है या नहीं
             } else {
                 // Pop two operands from the stack
                 String op2 = s.pop();
