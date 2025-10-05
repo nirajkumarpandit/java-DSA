@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Hello",
+            "request": "launch",
+            "mainClass": "Hello",
+            "projectName": "java-DSA-4_3c07c5c0"
+        },
+        {
+            "type": "java",
+            "name": "Subarray",
+            "request": "launch",
+            "mainClass": "Array.Subarray",
+            "projectName": "java-DSA-4_3c07c5c0"
+        },
+        {
+            "type": "java",
+            "name": "PostfixToPrefix",
+            "request": "launch",
+            "mainClass": "Stack.PostfixToPrefix",
+            "projectName": "java-DSA-4_3c07c5c0"
+        },
+        {
+            "type": "java",
             "name": "PrefixToInfix",
             "request": "launch",
             "mainClass": "Stack.PrefixToInfix",
