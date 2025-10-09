@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MaxAreaHistogram",
+            "request": "launch",
+            "mainClass": "Stack.MaxAreaHistogram",
+            "projectName": "java-DSA-6_3c07c5c2"
+        },
+        {
+            "type": "java",
             "name": "NextSmaller",
             "request": "launch",
             "mainClass": "Stack.NextSmaller",
