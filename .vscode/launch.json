@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Pratics",
+            "request": "launch",
+            "mainClass": "Linked_list.Pratics",
+            "projectName": "java-DSA-7_3c07c5c3"
+        },
+        {
+            "type": "java",
+            "name": "Operation",
+            "request": "launch",
+            "mainClass": "Linked_list.Operation",
+            "projectName": "java-DSA-7_3c07c5c3"
+        },
+        {
+            "type": "java",
             "name": "MaxAreaHistogram",
             "request": "launch",
             "mainClass": "Stack.MaxAreaHistogram",

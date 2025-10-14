@@ -33,11 +33,8 @@ public class Operation {
             head=tail=newNode;
             return;
         }
-        Node temp=head;         // traverse karke tail tak jao then add karo
-        for(int i=0; i<size-1; i++){
-            temp=temp.next;
-        }
-        temp.next=newNode;
+        tail.next=newNode;
+        tail=newNode;
         newNode=null;
         size++;
 
