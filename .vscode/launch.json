@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Using2StackQueue",
+            "request": "launch",
+            "mainClass": "Queue.Using2StackQueue",
+            "projectName": "java-DSA-9_3c07c5c5"
+        },
+        {
+            "type": "java",
+            "name": "Using2Stack",
+            "request": "launch",
+            "mainClass": "Queue.Using2Stack",
+            "projectName": "java-DSA-9_3c07c5c5"
+        },
+        {
+            "type": "java",
+            "name": "UsingLinkedList",
+            "request": "launch",
+            "mainClass": "Queue.UsingLinkedList",
+            "projectName": "java-DSA-9_3c07c5c5"
+        },
+        {
+            "type": "java",
+            "name": "CircularQueue",
+            "request": "launch",
+            "mainClass": "Queue.CircularQueue",
+            "projectName": "java-DSA-9_3c07c5c5"
+        },
+        {
+            "type": "java",
+            "name": "p1",
+            "request": "launch",
+            "mainClass": "Queue.praticsFolder.p1",
+            "projectName": "java-DSA-9_3c07c5c5"
+        },
+        {
+            "type": "java",
             "name": "Pratics",
             "request": "launch",
             "mainClass": "Linked_list.Pratics",
