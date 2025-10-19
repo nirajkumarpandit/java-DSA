@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "QueueReverse",
+            "request": "launch",
+            "mainClass": "Queue.QueueReverse",
+            "projectName": "java-DSA-9_3c07c5c5"
+        },
+        {
+            "type": "java",
             "name": "Interleave",
             "request": "launch",
             "mainClass": "Queue.Interleave",
