@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "First_non_repeating",
+            "request": "launch",
+            "mainClass": "Queue.First_non_repeating",
+            "projectName": "java-DSA-9_3c07c5c5"
+        },
+        {
+            "type": "java",
+            "name": "Stack_2_Queue",
+            "request": "launch",
+            "mainClass": "Queue.Stack_2_Queue",
+            "projectName": "java-DSA-9_3c07c5c5"
+        },
+        {
+            "type": "java",
             "name": "Using2StackQueue",
             "request": "launch",
             "mainClass": "Queue.Using2StackQueue",
