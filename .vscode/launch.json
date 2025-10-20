@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "QueueUsingDeque",
+            "request": "launch",
+            "mainClass": "Queue.QueueUsingDeque",
+            "projectName": "java-DSA-9_3c07c5c5"
+        },
+        {
+            "type": "java",
+            "name": "StackUsingDeque",
+            "request": "launch",
+            "mainClass": "Queue.StackUsingDeque",
+            "projectName": "java-DSA-9_3c07c5c5"
+        },
+        {
+            "type": "java",
+            "name": "Double_ended_Queue",
+            "request": "launch",
+            "mainClass": "Queue.Double_ended_Queue",
+            "projectName": "java-DSA-9_3c07c5c5"
+        },
+        {
+            "type": "java",
             "name": "QueueReverse",
             "request": "launch",
             "mainClass": "Queue.QueueReverse",
