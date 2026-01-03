@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "IndianCoin",
+            "request": "launch",
+            "mainClass": "Greedy_Algorithm.IndianCoin",
+            "projectName": "java-DSA-10_44f0f213"
+        },
+        {
+            "type": "java",
             "name": "Max_chainPair",
             "request": "launch",
             "mainClass": "Greedy_Algorithm.Max_chainPair",
