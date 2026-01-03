@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Max_chainPair",
+            "request": "launch",
+            "mainClass": "Greedy_Algorithm.Max_chainPair",
+            "projectName": "java-DSA-10_44f0f213"
+        },
+        {
+            "type": "java",
             "name": "Sorting_Activity_Selection",
             "request": "launch",
             "mainClass": "Greedy_Algorithm.Sorting_Activity_Selection",
