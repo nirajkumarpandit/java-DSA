@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Min_Absolute_difference",
+            "request": "launch",
+            "mainClass": "Greedy_Algorithm.Min_Absolute_difference",
+            "projectName": "java-DSA-10_44f0f213"
+        },
+        {
+            "type": "java",
             "name": "FractionalKnapsack",
             "request": "launch",
             "mainClass": "Greedy_Algorithm.FractionalKnapsack",
