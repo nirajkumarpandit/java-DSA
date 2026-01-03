@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FractionalKnapsack",
+            "request": "launch",
+            "mainClass": "Greedy_Algorithm.FractionalKnapsack",
+            "projectName": "java-DSA-10_44f0f213"
+        },
+        {
+            "type": "java",
             "name": "IndianCoin",
             "request": "launch",
             "mainClass": "Greedy_Algorithm.IndianCoin",
