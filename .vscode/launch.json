@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "squaroot",
+            "request": "launch",
+            "mainClass": "Binary_Search.squaroot",
+            "projectName": "java-DSA-10_44f0f213"
+        },
+        {
+            "type": "java",
             "name": "Min_Absolute_difference",
             "request": "launch",
             "mainClass": "Greedy_Algorithm.Min_Absolute_difference",
