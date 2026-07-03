@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PreorderTraversal",
+            "request": "launch",
+            "mainClass": "BinaryTree.PreorderTraversal",
+            "projectName": "java-DSA-10_44f0f213"
+        },
+        {
+            "type": "java",
             "name": "PreOrder",
             "request": "launch",
             "mainClass": "BinaryTree.PreOrder",
