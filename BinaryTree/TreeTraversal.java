@@ -1,8 +1,7 @@
 package BinaryTree;
 
-import BinaryTree.PreOrder.BinaryTree;
 
-public class PreorderTraversal {
+public class TreeTraversal {
     static class  Node {
     
         int data; 
@@ -41,12 +40,26 @@ public class PreorderTraversal {
             // step 3-> print right nodes
             preorderTraversal(root.right);
         }
+        //Inorder traversal
+        public static void inorder(Node root){
+            // base case 
+            if(root == null){
+                return ;
+            }
+            // step 1-> traverse left subtree
+            inorder(root.left);
+            // step 2-> print root
+            System.out.print(root.data+" ");
+            // step 3-> traverse right subtree
+            inorder(root.right);
+        }
     }
     public static void main(String[] args) {
         int nodes[]={1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1};
         BinaryTree tree=new BinaryTree();
         Node root= tree.buildTree(nodes);
         // System.out.println("Root element : "+root.data);
-        tree.preorderTraversal(root);
+        // tree.preorderTraversal(root);
+        tree.inorder(root);
     }
 }
