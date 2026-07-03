@@ -53,6 +53,19 @@ public class TreeTraversal {
             // step 3-> traverse right subtree
             inorder(root.right);
         }
+        // Post order traversal
+        public static void postorder(Node root){
+            // base case 
+            if(root == null){
+                return;
+            }
+            // print left subtree
+            postorder(root.left);
+            // print right subtree
+            postorder(root.right);
+            // print root
+            System.out.print(root.data+" ");
+        }
     }
     public static void main(String[] args) {
         int nodes[]={1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1};
@@ -60,6 +73,7 @@ public class TreeTraversal {
         Node root= tree.buildTree(nodes);
         // System.out.println("Root element : "+root.data);
         // tree.preorderTraversal(root);
-        tree.inorder(root);
+        // tree.inorder(root);
+        tree.postorder(root);
     }
 }
