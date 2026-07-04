@@ -21,6 +21,17 @@ public class height{
         int rh=height(root.right);
         return Math.max(lh, rh)+1;
     }
+
+    // count the nodes in tree
+    public static int nodesCount(Node root){
+        // base case
+        if(root==null){
+            return 0; // no node present
+        }
+        int lcount=nodesCount(root.left);
+        int rcount=nodesCount(root.right);
+        return (lcount+rcount)+1;
+    }
     public static void main(String[] args) {
         
         Node root=new Node(1);
@@ -30,5 +41,6 @@ public class height{
         root.left.right=new Node(5);
         root.right.right=new Node(6);
         System.out.println(height(root));
+        System.out.print("No. of nodes in the tree : "+nodesCount(root));
     }
 }
