@@ -1,6 +1,7 @@
 package BinaryTree;
-public class height{
-    static class Node {
+
+public class Diameter {
+     static class Node {
     
         int data;
         Node left;
@@ -21,29 +22,27 @@ public class height{
         int rh=height(root.right);
         return Math.max(lh, rh)+1;
     }
-
-    // count the nodes in tree
-    public static int nodesCount(Node root){
-        // base case
-        if(root==null){
-            return 0; // no node present
+    // Diameter of the tree
+    public static int diameter(Node root){
+        // base case 
+        if(root == null){
+            return 0;
         }
-        int lcount=nodesCount(root.left);
-        int rcount=nodesCount(root.right);
-        return (lcount+rcount)+1;
+        // left diameter
+        int leftDiameter=diameter(root.left);
+        int rightDiameter=diameter(root.right);
+        int leftHeight=height(root.left);
+        int rightHeight=height(root.right);
+        int selfDiameter= leftHeight+rightHeight+1;
+        return Math.max(leftDiameter, Math.max(rightDiameter, selfDiameter));
     }
     public static void main(String[] args) {
-        
-        Node root=new Node(1);
+         Node root=new Node(1);
         root.left=new Node(2);
         root.right=new Node(3);
         root.left.left=new Node(4);
         root.left.right=new Node(5);
-        root.left.right.right=new Node(7);
-        root.left.right.right.right=new Node(8);
-        root.left.right.right.right.right=new Node(9);
         root.right.right=new Node(6);
-        System.out.println(height(root));
-        System.out.print("No. of nodes in the tree : "+nodesCount(root));
+        System.out.println(diameter(root));
     }
 }
