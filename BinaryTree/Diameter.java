@@ -23,6 +23,9 @@ public class Diameter {
         return Math.max(lh, rh)+1;
     }
     // Diameter of the tree
+
+    // TIME COMPLEXITY =O(n^2)
+    
     public static int diameter(Node root){
         // base case 
         if(root == null){
