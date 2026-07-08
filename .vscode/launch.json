@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SubTree",
+            "request": "launch",
+            "mainClass": "BinaryTree.SubTree",
+            "projectName": "java-DSA-10_44f0f213"
+        },
+        {
+            "type": "java",
             "name": "optimalDiameter",
             "request": "launch",
             "mainClass": "BinaryTree.optimalDiameter",
