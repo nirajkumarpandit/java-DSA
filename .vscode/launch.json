@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LargestCommonPrefix",
+            "request": "launch",
+            "mainClass": "Strings.LargestCommonPrefix",
+            "projectName": "java-DSA-10_44f0f213"
+        },
+        {
+            "type": "java",
+            "name": "LargestOddNumber",
+            "request": "launch",
+            "mainClass": "Strings.LargestOddNumber",
+            "projectName": "java-DSA-10_44f0f213"
+        },
+        {
+            "type": "java",
             "name": "RemoveOuterMostParantheses",
             "request": "launch",
             "mainClass": "Strings.RemoveOuterMostParantheses",
