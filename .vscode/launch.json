@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Search_RotatedSortedArray",
+            "request": "launch",
+            "mainClass": "Binary_Search.Search_RotatedSortedArray",
+            "projectName": "java-DSA-10_44f0f213"
+        },
+        {
+            "type": "java",
             "name": "LargestCommonPrefix",
             "request": "launch",
             "mainClass": "Strings.LargestCommonPrefix",
