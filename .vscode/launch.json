@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Search_RotatedSorted_Array_II",
+            "request": "launch",
+            "mainClass": "Binary_Search.Search_RotatedSorted_Array_II",
+            "projectName": "java-DSA-10_44f0f213"
+        },
+        {
+            "type": "java",
+            "name": "MostWater",
+            "request": "launch",
+            "mainClass": "ArrayList.MostWater",
+            "projectName": "java-DSA-10_44f0f213"
+        },
+        {
+            "type": "java",
             "name": "Search_RotatedSortedArray",
             "request": "launch",
             "mainClass": "Binary_Search.Search_RotatedSortedArray",
