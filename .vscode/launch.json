@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Min_RotateSortedArray",
+            "request": "launch",
+            "mainClass": "Binary_Search.Min_RotateSortedArray",
+            "projectName": "java-DSA-10_44f0f213"
+        },
+        {
+            "type": "java",
             "name": "Search_RotatedSorted_Array_II",
             "request": "launch",
             "mainClass": "Binary_Search.Search_RotatedSorted_Array_II",
